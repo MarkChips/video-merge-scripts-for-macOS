@@ -98,5 +98,5 @@ MIT License
 
 ## Credits
 
-Script and README by Mark Chipperfield.  
+Scripts and README by Mark Chipperfield.  
 Inspired by: [2b3pro/ffmpeg_merge_videos_in_folder.md](https://gist.github.com/2b3pro/39f473bc663fe49ce04530aded73cf0d)

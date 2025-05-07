@@ -27,10 +27,10 @@ rm -f videos2bmerged.txt
 # Build the concat list and find the first mp4 file
 firstfile=""
 for f in ./*.MP4; do
-  echo "file '$f'" >> videos2bmerged.txt
-  if [ -z "$firstfile" ]; then
-    firstfile="$f"
-  fi
+	echo "file '$f'" >> videos2bmerged.txt
+	if [ -z "$firstfile" ]; then
+		firstfile="$f"
+	fi
 done
 
 # Get the filesystem creation date of the first file (DD-MM-YYYY)
