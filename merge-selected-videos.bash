@@ -4,7 +4,7 @@ export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 # Get the first selected file
 firstfile="$1"
 
-# Get the file creation date (DD-MM-YYYY)
+# Get the filesystem creation date (DD-MM-YYYY)
 DATE=$(stat -f %SB -t "%d-%m-%Y" "$firstfile")
 
 output_dir="$(dirname "$firstfile")"
