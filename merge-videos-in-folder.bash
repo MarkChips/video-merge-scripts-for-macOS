@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Ensure ffmpeg is found (adjust for your system if needed)
-export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
 # Check if the first argument ($1) is empty; if so, print usage instructions and exit
 if [ -z "$1" ]; then 
