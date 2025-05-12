@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Ensure ffmpeg is found (adjust for your system if needed)
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
