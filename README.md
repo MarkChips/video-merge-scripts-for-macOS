@@ -90,6 +90,19 @@ chmod +x merge-selected-videos.bash
 
 ---
 
+### Enable debug log with Automator
+
+To enable the debug log with automator, insert in the shell script at line 2:
+
+```bash
+set -x
+exec > ~/automator_debug.log 2>&1
+```
+
+Now when you run the service, a file will be created at `~/` called `automator_debug.log`. Contained within will be a list of each command ran, and any error messages.
+
+---
+
 ## License
 
 MIT License
