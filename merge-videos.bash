@@ -37,8 +37,6 @@ process_files() {
     echo "Created: $output_path"
 }
 
-
-
 for input in "$@"; do
     [ -e "$input" ] || continue
     if [ -d "$input" ]; then
